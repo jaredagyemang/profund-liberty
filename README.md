@@ -10,16 +10,12 @@ Static website (plain HTML, CSS and a little JavaScript). No framework and no bu
 
 ## Things to fill in before launch
 
-Search all files for `[` to find every placeholder. On the pages they are shown with a
-dashed gold box (the `ph` class) so they're easy to spot; remove the
-`<span class="ph">…</span>` wrapper when you put in the real text.
+All bracketed placeholders have been filled in. What's left:
 
-| Placeholder | Where |
-|---|---|
-| `[STATE 1–6]`, `[COUNTY LIST]` | States & Counties We Serve |
+- **Phone number:** there is none on the site yet. When you have one, add it to the footer
+  (every page), the Home contact section, the Contact page, and the contact details on the legal pages.
 
-There is no phone number on the site yet. When you have one, add it to the footer
-(every page), the Home contact section, the Contact page, and the contact details on the legal pages.
+- **Web3Forms access key:** see below.
 
 ### Contact forms (Web3Forms)
 
