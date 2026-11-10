@@ -22,7 +22,6 @@
   if (year) year.textContent = new Date().getFullYear();
 
   // Web3Forms submission (falls back to a normal form post if JavaScript is off)
-  var PLACEHOLDER_KEY = "YOUR_WEB3FORMS_ACCESS_KEY";
   document.querySelectorAll("form.js-web3form").forEach(function (form) {
     var status = form.querySelector(".form-status");
     var button = form.querySelector('button[type="submit"]');
@@ -38,12 +37,6 @@
         form.reportValidity();
         return;
       }
-      var key = form.querySelector('input[name="access_key"]').value;
-      if (!key || key === PLACEHOLDER_KEY) {
-        show("This form is not connected yet. Please email us at info@profundliberty.com for now.", false);
-        return;
-      }
-
       var data = Object.fromEntries(new FormData(form).entries());
       var original = button.textContent;
       button.disabled = true;
@@ -60,11 +53,11 @@
             form.reset();
             show("Thank you! Your request was received. A member of our team will be in touch soon.", true);
           } else {
-            show(json.message || "Something went wrong. Please try again or contact us directly.", false);
+            show(json.message || "Something went wrong. Please try again, or email us at info@profundliberty.com.", false);
           }
         })
         .catch(function () {
-          show("We couldn't send your request. Please check your connection and try again.", false);
+          show("We couldn't send your request. Please check your connection and try again, or email us at info@profundliberty.com.", false);
         })
         .finally(function () {
           button.disabled = false;

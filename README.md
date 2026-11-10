@@ -15,15 +15,12 @@ All bracketed placeholders have been filled in. What's left:
 - **Phone number:** there is none on the site yet. When you have one, add it to the footer
   (every page), the Home contact section, the Contact page, and the contact details on the legal pages.
 
-- **Web3Forms access key:** see below.
-
 ### Contact forms (Web3Forms)
 
-1. Get a free access key at https://web3forms.com (enter the email that should receive leads).
-2. In `index.html` and `contact.html`, replace `YOUR_WEB3FORMS_ACCESS_KEY` with your key
-   (look for the `WEB3FORMS ACCESS KEY` comment).
-
-Until the key is added, the forms show a "not connected yet" message instead of sending.
+Both forms (`index.html` and `contact.html`) send to Web3Forms using the access key in
+the hidden `access_key` field. Submissions are emailed to the address on that Web3Forms
+account. The key is meant to be public, so it's fine for it to be in the page source.
+To use a different key, replace it in both files.
 
 ### Legal pages
 
