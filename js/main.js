@@ -40,7 +40,7 @@
       }
       var key = form.querySelector('input[name="access_key"]').value;
       if (!key || key === PLACEHOLDER_KEY) {
-        show("This form is not connected yet. Please contact us directly by phone or email for now.", false);
+        show("This form is not connected yet. Please email us at info@profundliberty.com for now.", false);
         return;
       }
 

@@ -16,14 +16,11 @@ dashed gold box (the `ph` class) so they're easy to spot; remove the
 
 | Placeholder | Where |
 |---|---|
-| `[PHONE]` | Footer (every page), Home, Contact, legal pages |
-| `[EMAIL]` | Footer (every page), Home, Contact, legal pages |
-| `[MAILING ADDRESS]` | Footer (every page), Contact, legal pages |
-| `[STATE OF FORMATION]` | Footer (every page), About, FAQ, Terms of Use |
-| `[BUSINESS HOURS]` | Contact |
 | `[TEAM MEMBER NAME 1–3]`, `[TITLE]`, `[SHORT BIO]` | About |
 | `[STATE 1–6]`, `[COUNTY LIST]` | States & Counties We Serve |
-| `[DATE]` | "Last updated" on Privacy, Terms, Disclaimer |
+
+There is no phone number on the site yet. When you have one, add it to the footer
+(every page), the Home contact section, the Contact page, and the contact details on the legal pages.
 
 ### Contact forms (Web3Forms)
 
