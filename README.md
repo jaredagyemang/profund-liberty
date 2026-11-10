@@ -16,7 +16,6 @@ dashed gold box (the `ph` class) so they're easy to spot; remove the
 
 | Placeholder | Where |
 |---|---|
-| `[TEAM MEMBER NAME 1–3]`, `[TITLE]`, `[SHORT BIO]` | About |
 | `[STATE 1–6]`, `[COUNTY LIST]` | States & Counties We Serve |
 
 There is no phone number on the site yet. When you have one, add it to the footer
